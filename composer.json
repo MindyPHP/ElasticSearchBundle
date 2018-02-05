@@ -1,0 +1,26 @@
+{
+    "name": "mindy/elastic-search-bundle",
+    "description": "ElasticSearch bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mindy\\Bundle\\ElasticSearchBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Maksim Falaleev",
+            "email": "max@studio107.ru"
+        }
+    ],
+    "require": {
+        "ruflin/elastica": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
